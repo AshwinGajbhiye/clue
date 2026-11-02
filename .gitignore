@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets — NEVER commit your API keys
+.env
+
+# macOS
+.DS_Store
+*.DS_Store
+.AppleDouble
+
+# Whisper models cache
+~/.cache/whisper/
+faster_whisper_models/
+
+# IDE
+.idea/
+.vscode/
+*.swp

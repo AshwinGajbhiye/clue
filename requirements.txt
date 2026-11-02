@@ -1,0 +1,20 @@
+# Clue Stealth Copilot Dependencies
+PyQt6>=6.5.0
+PyAudio>=0.2.14
+python-dotenv>=1.0.0
+google-generativeai>=0.8.0
+pygments>=2.15.0
+Pillow>=10.0.0
+requests>=2.31.0
+certifi>=2024.0.0
+
+# Offline local STT (no internet required)
+# Primary: faster-whisper (CTranslate2 backend, 10x faster)
+faster-whisper>=1.0.0
+
+# audioop polyfill for Python 3.13+
+audioop-lts>=0.2.1
+
+# Google Antigravity SDK — primary AI engine
+# Installed by setup.sh; falls back gracefully to google-generativeai if unavailable
+# google-antigravity>=1.0.0
